@@ -1,0 +1,77 @@
+.card
+    display: flex
+    align-items: center
+    justify-content: center
+    text-align: center
+    &:hover
+        transform: scale(1.08)
+.mini-card
+    h4
+        color: grey
+        font-size: 15px
+    h1
+        color: #404040
+        font-family: "amatic"
+        font-size: 48px
+        span
+            color: #c32525
+.paragraph
+    font-size: 15px
+    color: #9696a4
+    font-family: Arial, Helvetica, sans-serif
+
+.chefs-container
+    display: flex
+    flex-direction: column
+    gap: 22vh
+    .child-1
+        background-color: #f8f8f8
+        width: 48vw
+.chefs-child
+    padding-left: 6vw
+    h4
+        font-size: 15px
+        color: grey
+        text-align: center
+    h1
+        color: #404040
+        text-align: center
+        font-family: "amatic"
+        font-size: 48px
+        span
+            color: #c32525
+    button
+        background-color: #c32525
+        border: none
+        padding: 1.5vh 3vw
+        border-radius: 5px
+        color: white
+    .input
+        width: 12.9vw
+    .container
+        padding-top: 5vh
+@media (max-width : 428px)
+    .chefs-container
+        padding-top: 13vh
+        .card2
+            margin-top: 9vh
+        .child-1
+            width: 92vw
+            padding-left: 5vw
+            padding-top: 5vh
+        
+    .child-0
+        flex-direction: column !important
+        width: 50vw
+    .container img
+        width: 390px
+    .input
+        width: 74vw
+    .textarea
+        width: 74vw !important
+    .input
+        width: 74vw !important
+    .chefs-child
+        padding-left: 0
+    .button
+        padding-left: 20vw !important

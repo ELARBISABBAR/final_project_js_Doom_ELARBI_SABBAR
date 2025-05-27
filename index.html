@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yummy Project</title>
     <link rel="stylesheet" href="./public/css/app.css">
 </head>
+
 <body>
-        <header id="Home">
+    <header id="Home">
         <nav>
             <div class="title">
                 <h3>Yummy <span>.</span></h3>
@@ -543,7 +545,7 @@
 
         <!-- Events-->
 
-         <section class="" id="Events">
+        <section class="" id="Events">
             <div class="image-gallery">
                 <div class="gallery-inner">
                     <div class="gallery-item">
@@ -587,10 +589,117 @@
 
         </section>
 
+        <!-- Chefs-->
+        <section class="chefs-container" id="Chefs">
+            <div class="card-group d-flex flex-column justify-content-center align-content-center">
+                <div class="mini-card text-center pt-5">
+                    <h4>CHEFS</h4>
+                    <h1>OUR <span>PROFFESIONEL CHEFS</span></h1>
+                </div>
+                <div class="child-6 d-lg-flex d-grid gap-4 pt-5 justify-content-center w-100 h-100">
+                    <div class="card" class="card2  d-flex flex-column  bottom-50 text-secondary shadow ">
+                        <img width="400px" height="400px" src="./public/images/chefs/chefs-1.jpg" alt="...">
+                        <div class=" top-100 w-100 shadow  pt-2 pb-2 ps-2 pe-2">
+                            <h4 style="color: #37373f; font-size: 18px; font-weight: bold;">Walter White</h4>
+                            <p class="paragraph">Master Chef</p>
+                            <p style="color: #5a5a63; font-size: 14px;">Velit aut quia fugit et et. Dolorum ea voluptate
+                                vel tempore <br> tenetur ipsa quae aut.
+                                Ipsum
+                                exercitationem iure minima enim <br> corporis et voluptate.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card d-flex flex-column text-secondary shadow">
+                        <img width="400px" height="400px" src="./public/images/chefs/chefs-2.jpg" alt="...">
+                        <div class=" top-100 w-100 bg-light shadow pt-2 pb-2 ps-2 pe-2">
+                            <h4 style="color: #37373f; font-size: 18px; font-weight: bold;">Sarah Jhonson</h4>
+                            <p class="paragraph">Patissier</p>
+                            <p style="color: #5a5a63; font-size: 14px;">Quo esse repellendus quia id. Est eum et
+                                accusantium pariatur <br> fugit nihil minima
+                                suscipit corporis. Voluptate sed quas <br> reiciendis animi neque sapiente.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card d-flex flex-column  text-secondary shadow">
+                        <img width="400px" height="400px" src="./public/images/chefs/chefs-3.jpg" alt="...">
+                        <div class="top-100 w-100 bg-light  shadow pt-2 pb-2 ps-2 pe-2">
+                            <h4 style="color: #37373f; font-size: 18px; font-weight: bold;">William Anderson</h4>
+                            <p class="paragraph">Cook</p>
+                            <p style="color: #5a5a63; font-size: 13px;">Vero omnis enim consequatur. Voluptas
+                                consectetur unde qui <br> molestiae deserunt. Voluptates
+                                enim aut architecto porro <br> aspernatur molestiae modi.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="chefs-child">
+                <h4>Book A Table</h4>
+                <h1>Book Your<span> Stay With Us</span></h1>
+
+                <div class=" container border-0 pt-">
+                    <div class="child-0 d-flex g-0 w-100">
+                        <div class="img-chefs">
+                            <img height="500" width="430" src="./public/images/reservation.jpg" class="" alt="...">
+                        </div>
+                        <div class=" child-1 ">
+                            <div class="child-0 d-flex align-items-center h-100">
+                                <form action="" class="child-0 d-flex flex-column gap-4 mx-4">
+                                    <div class="child-0 d-flex w-100 gap-4 ">
+                                        <div class="time">
+                                            <input class="p-2 border border-light-subtle" type="text"
+                                                placeholder="Your name">
+                                        </div>
+                                        <div>
+                                            <input class="p-2 border border-light-subtle" type="email"
+                                                placeholder="Your email">
+                                        </div>
+
+                                        <div class="">
+                                            <input class="p-2  border border-light-subtle" type="number"
+                                                placeholder="Your Phone">
+                                        </div>
+                                    </div>
+
+                                    <div class="child-0 d-flex justify-content-between w-100 gap-4">
+                                        <div>
+                                            <input class="input p-2 border border-light-subtle" type="date"
+                                                placeholder="Date">
+                                        </div>
+                                        <div class="">
+                                            <input class="input p-2  border border-light-subtle" type="time"
+                                                placeholder="Your email">
+                                        </div>
+
+                                        <div>
+                                            <input class="p-2 border border-light-subtle" type="text"
+                                                placeholder="# of people">
+                                        </div>
+                                    </div>
+                                    <textarea placeholder="Message"
+                                        class="w-100 p-2 border border-light-subtle textarea" name="" id="" cols="25"
+                                        rows="5"></textarea>
+
+                                    <div class="d-flex justify-content-center p-2 button">
+                                        <button>Book a Table</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
     </main>
 
-   
-<script src="./public/js/app.js"></script>
-<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+    <script src="./public/js/app.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
+
 </html>
