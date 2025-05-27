@@ -1,0 +1,150 @@
+header
+    nav
+        display: flex
+        align-items: center
+        justify-content: space-around
+        position: fixed
+        background-color: white
+        box-shadow: 0 2px 3px rgb(0 0 0 / 0.1)
+        width: 100%
+        padding: 2vh 5vw
+        z-index: 22222222
+        h3
+            padding-top: 2vh
+            font-weight: bold
+            color: #37373f
+            span
+                color: red
+        .navbar
+            display: flex
+            align-items: center
+            gap: 8vw
+            .links
+                display: flex
+                gap: 1.8vw
+            select
+                border: none
+                background-color: transparent
+                color: gray
+                font-weight: 500
+            select:hover
+                color: #37373f
+                border-bottom: solid 1.5px red
+            a
+                text-decoration: none
+                color: gray
+                font-weight: 500
+            a:hover
+                color: #2a2a30
+                border-bottom: solid 1.5px red
+            button
+                background-color: #c32525
+                border: none
+                padding: 0.8vh 1.8vw
+                border-radius: 20px
+                color: white
+            button:hover
+                background-color: #d33d3d
+.home
+    display: flex
+    justify-content: space-around
+    align-items: center
+    background-color: #f2f2f2
+    padding: 18vh 0
+    .title
+        display: flex
+        flex-direction: column
+        gap: 1vh
+    h1
+        font-family: amatic
+        font-weight: 600
+        font-size: 65px
+        color: #404040
+    .p
+        font-weight: 800px
+        font-size: 19px
+        font-family: Arial, Helvetica, sans-serif
+        color: gray
+    img
+        width: 500px
+    button
+        background-color: #c32525
+        border: none
+        padding: 1.2vh 1.8vw
+        border-radius: 20px
+        color: white
+    button:hover
+        background-color: #d33d3d
+    a
+        text-decoration: none
+        color: black
+        font-weight: 500
+    a:hover
+        color: red
+    .child
+        display: flex
+        justify-content: left
+        align-items: center
+        gap: 1.4vw
+    .watch
+        display: flex
+        align-items: center
+        justify-content: center
+        gap: 7px
+.bg
+    display: none
+    position: fixed
+    box-shadow: 0 2px 3px rgb(0 0 0 / 0.1)
+    background-color: rgba(0, 0, 0, 0.5)    
+    font-weight: bold
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    justify-content: center
+    align-items: center
+    border-radius: 15px
+    color: black
+    gap: 2vh
+    z-index: 1000 
+.content-modal
+    border-radius: 8px
+    width: 700px
+    display: flex
+    flex-direction: column
+    background-color: white
+    padding: 5vh 4vw
+    input
+        border-radius: 5px
+        padding: 1vh
+.animated
+    animation: up-down 2s ease-in-out infinite alternate-reverse both
+
+@media (max-width : 428px)
+    .links
+        display: none !important
+    .navbar
+        padding-left: 0 !important
+    .home
+        flex-direction: column-reverse
+        gap: 3vh
+        padding: 20px
+        img
+            width: 400px
+            padding-top: 11vh
+        .title
+            h1
+                font-size: 30px
+            .child
+                gap: 5vw
+            
+
+
+@font-face 
+    font-family: "amatic"
+    src: url(../../public/fonts/Amatic_SC/AmaticSC-Regular.ttf)
+@keyframes up-down
+    0%
+        transform: translateY(0)
+    100%
+        transform: translateY(20px)
