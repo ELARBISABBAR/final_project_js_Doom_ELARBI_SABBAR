@@ -142,23 +142,19 @@ button:hover{
     justify-content: center;
     gap: 7px;
 }
-.bg{
-    display: none;
-    position: fixed;
-    box-shadow: 0 2px 3px rgb(0 0 0 / 0.1);
-    background-color: rgba(0, 0, 0, 0.5);
-    font-weight: bold;
-    top: 0;
-    left: 0;
-    width: 100px;
-    height: 100px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15px;
-    color: black;
-    gap: 2vh;
-    z-index: 1000;
+.bg {
+  display: none;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  width: 100vw; 
+  height: 100vh; 
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
 }
+
 .content-modal{
     border-radius: 8px;
     width: 700px;
