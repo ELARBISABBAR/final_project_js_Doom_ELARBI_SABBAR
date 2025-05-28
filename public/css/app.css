@@ -12628,5 +12628,12 @@ header nav .navbar button:hover {
     gap: 2vh;
   }
 }
+@font-face {
+  font-family: "amatic";
+  src: url(../../public/fonts/AmaticSC-Bold.ttf); 
+  src: url(../../public/fonts/AmaticSC-Regular.ttf);
+}
+   
+
 
 /*# sourceMappingURL=app.css.map */

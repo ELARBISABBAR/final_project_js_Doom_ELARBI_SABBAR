@@ -52,3 +52,29 @@ function AutoSlide(){
 }
 start(currentIndex2)
 AutoSlide()
+
+
+
+// ^ Carousel Events
+let galleryInner = document.querySelector('.gallery-inner')
+let galleryItems = document.querySelectorAll('.gallery-item')
+let total2 = galleryItems.length
+let currentIndex = 0
+let intervalTime = 3000
+
+function slide3() {
+  currentIndex = (currentIndex + 1) % total2
+  Gallery()
+}
+
+function Gallery() {
+  let offset = -currentIndex * 100
+  galleryInner.style.transform = `translateX(${offset}%)`
+}
+
+setInterval(slide3, intervalTime)
+
+Gallery()
+
+
+
