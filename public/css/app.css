@@ -12278,7 +12278,7 @@ header nav .navbar button:hover {
 }
 .carousel-container h2, .carousel-container .h2 {
   color: #2a2a31;
-  font-family: "amatic";
+  font-family: amatic;
   text-align: center;
   font-size: 47px;
 }
@@ -12313,14 +12313,14 @@ header nav .navbar button:hover {
   font-size: 24px;
   font-weight: bold;
   color: #3e3e43;
-  font-family: "amatic";
+  font-family: amatic;
 }
 .content p {
   font-size: 16px;
 }
 .content h1, .content .h1 {
   color: #2a2a31;
-  font-family: "amatic";
+  font-family: amatic;
   text-align: center;
   font-size: 47px;
 }
@@ -12424,12 +12424,12 @@ header nav .navbar button:hover {
 }
 
 .mini-card h4, .mini-card .h4 {
-  color: grey;
+  color: gray;
   font-size: 15px;
 }
 .mini-card h1, .mini-card .h1 {
   color: #404040;
-  font-family: "amatic";
+  font-family: amatic;
   font-size: 48px;
 }
 .mini-card h1 span, .mini-card .h1 span {
@@ -12457,13 +12457,13 @@ header nav .navbar button:hover {
 }
 .chefs-child h4, .chefs-child .h4 {
   font-size: 15px;
-  color: grey;
+  color: gray;
   text-align: center;
 }
 .chefs-child h1, .chefs-child .h1 {
   color: #404040;
   text-align: center;
-  font-family: "amatic";
+  font-family: amatic;
   font-size: 48px;
 }
 .chefs-child h1 span, .chefs-child .h1 span {
@@ -12529,14 +12529,14 @@ header nav .navbar button:hover {
   padding-bottom: 5vh;
 }
 .carousel4 h4, .carousel4 .h4 {
-  color: grey;
+  color: gray;
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
 .carousel4 h1, .carousel4 .h1 {
   color: #2a2a31;
-  font-family: "amatic";
+  font-family: amatic;
   text-align: center;
   font-size: 47px;
 }
@@ -12610,10 +12610,6 @@ header nav .navbar button:hover {
 .info h4, .info .h4 {
   text-align: start;
   font-size: 16px;
-}
-
-.icons-pt-3 i:hover {
-  color: red;
 }
 
 .btn-3 {
