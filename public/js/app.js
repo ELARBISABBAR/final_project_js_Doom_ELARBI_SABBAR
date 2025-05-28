@@ -37,7 +37,7 @@ let slides = document.querySelectorAll('.slide')
 
 let currentIndex2 = 0
 let total = slides.length
-let slideInterval = 3000
+let slideInterval = 1000
 
 function start(index) {
   if (index >= total) {
@@ -66,7 +66,7 @@ let galleryInner = document.querySelector('.gallery-inner')
 let galleryItems = document.querySelectorAll('.gallery-item')
 let total2 = galleryItems.length
 let currentIndex = 0
-let intervalTime = 3000
+let intervalTime = 1000
 
 function slide3() {
   currentIndex = (currentIndex + 1) % total2
@@ -92,7 +92,7 @@ let carouselDots = document.querySelector('.carousel-dots')
 
 let slideIndex = 0
 let slides2 = carouselInner.children
-let Time = 4000
+let Time = 1000
 let autoSlideInterval
 
 for (let i = 0; i < slides2.length; i++) {
