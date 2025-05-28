@@ -4,9 +4,6 @@
  * Copyright 2011-2025 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-
-    
-
 @import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
 :root,
 [data-bs-theme=light] {
@@ -12505,7 +12502,7 @@ header nav .navbar button:hover {
   .container img {
     width: 390px;
   }
-  .input {
+  input {
     width: 74vw;
   }
   .textarea {
@@ -12635,11 +12632,5 @@ header nav .navbar button:hover {
     gap: 2vh;
   }
 }
-@font-face{
-  font-family: "amatic";
-  src: url(../../public/fonts/AmaticSC-Bold.ttf);
-  src: url(../../public/fonts/AmaticSC-Regular.ttf)
-    
-} 
 
 /*# sourceMappingURL=app.css.map */
